@@ -48,6 +48,11 @@ header button {
     border: none;
     border-radius: 20px;
 }
+header button:hover{
+    box-shadow: 2px 3px 4px #0072e1;
+    transform: translateY(-3px);
+    color: #e5fa24;
+}
 
 nav{
     position: fixed;
@@ -59,7 +64,31 @@ ul {
     margin: 0;
     padding: 0;
 }
+#Lorem:hover{
+    color: #0072e1;
+   box-shadow:2px 3px 4px #0072e1;
+   cursor: pointer;
+   transform: translateY(-3px);
 
+}
+#ipsum:hover{
+    color: #0072e1;
+    box-shadow:2px 3px 4px #0072e1;
+    cursor: pointer;
+   transform: translateY(-3px);
+}
+#dolor:hover{
+    color: #0072e1;
+    box-shadow:2px 3px 4px #0072e1;
+    cursor: pointer;
+   transform: translateY(-3px);
+}
+#sit:hover{
+    color: #0072e1;
+    box-shadow:2px 3px 4px #0072e1;
+    cursor: pointer;
+   transform: translateY(-3px);
+}
 a {
     display: block;
     font-size: 25px;
